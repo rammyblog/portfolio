@@ -1,12 +1,31 @@
 @tailwind base;
 @tailwind components;
 
+html {
+  @apply font-body;
+}
+
 .btn-blue {
   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
 }
 
 .hero {
   @apply py-20;
+}
+
+.header-background {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(30, 27, 30, 0.8),
+      rgb(30, 27, 30, 0.8)
+    ),
+    url("../public/hero.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.custom-box-shadow {
+  box-shadow: 0px 11px #4299e1 !important;
 }
 
 .title {
