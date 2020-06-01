@@ -18,6 +18,11 @@ class MyDocument extends Document {
             src="https://kit.fontawesome.com/833e0cadb7.js"
             crossOrigin="anonymous"
           ></script>
+          <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+          <link
+            rel="stylesheet"
+            href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+          />
         </Head>
         <body>
           <Main />
