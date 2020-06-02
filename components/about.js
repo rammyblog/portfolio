@@ -93,7 +93,7 @@ function About() {
     <>
       <div className="flex flex-col md:flex-col lg:flex-row pt-0 md:pt-10 lg:pt-10 ">
         <div className="w-full order-first md:order-last lg:order-last pt-20 px-4">
-          <h2 className="text-3xl lg:text-5xl custom-box-shadow">
+          <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block">
             About me & What I do
           </h2>
           <p className=" text-xl text-gray-700 text-justify">

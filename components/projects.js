@@ -7,7 +7,7 @@ import Card from "./card"
 function Projects() {
   return (
     <div className="px-4 md:px-0 lg:px-0 mt-10">
-      <h2 className="text-3xl lg:text-5xl custom-box-shadow">
+      <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block">
         Open Source Projects
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 justify-center">
