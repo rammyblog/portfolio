@@ -20,7 +20,7 @@ function Header() {
   ]
   return (
     <>
-      <div className="relative flex p-0 md:py-20 lg:py-20 justify-center items-center flex-col  text-gray-800 text-center h-screen mb-10 ">
+      <div className="flex justify-center items-center flex-col  text-gray-800 text-center h-screen mb-0 lg:mb-10 ">
         <div className="rounded-full flex items-center justify-center w-40">
           <img
             src="./onasanya_tunde.jpg"
@@ -71,7 +71,7 @@ function Header() {
           src="./developer_activity.png"
         /> */}
         <div onClick={handleScroll}>
-          <i className="fa fa-angle-down fa-3x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite text-blue-500 absolute right-1 bottom-3"></i>
+          <i className="fa fa-angle-down fa-3x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite text-blue-500 mx-auto"></i>
         </div>
       </div>
     </>

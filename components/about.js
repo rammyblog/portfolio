@@ -1,4 +1,5 @@
 import React from "react"
+import { Element } from "react-scroll"
 
 function About() {
   const softwareSkills = [
@@ -20,7 +21,7 @@ function About() {
     },
 
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python",
       color: "bg-blue-500",
     },
@@ -30,7 +31,7 @@ function About() {
       color: "bg-green-800",
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react",
       color: "bg-blue-300",
     },
@@ -72,12 +73,12 @@ function About() {
     },
 
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm",
       color: "bg-red-600",
     },
     {
-      skillName: "sql-database",
+      skillName: "Sqlite",
       fontAwesomeClassname: "fas fa-database",
       color: "bg-blue-500",
     },
@@ -91,34 +92,39 @@ function About() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-col lg:flex-row pt-0 md:pt-10 lg:pt-10 ">
-        <div className="w-full order-first md:order-last lg:order-last pt-20 px-4">
-          <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block">
-            About me & What I do
-          </h2>
-          <p className=" text-sm pt-4 text-gray-700 text-justify custom-libre-font">
-            I'm a motivated full stack Developer and Computer Engineering
-            undergraduate with great passion for building excellent softwares. I
-            build fun stuffs using mostly Python and JavaScript. I offer 2 years
-            of development experience, a strong aptitude for learning new
-            technologies, and a proven track record of meeting aggressive goals.
-            My most notable skills include:
-          </p>
-          <div className="grid grid-cols-3 ">
-            {softwareSkills.map((skill, idx) => (
-              <div key={idx} className="tooltip inline">
-                <i
-                  className={`text-gray-500 text-4xl  p-5 mx-5 transition duration-500
-                 ease-in-out  hover:text-white hover:${skill.color} transform hover:-translate-y-1 hover:scale-110 ${skill.fontAwesomeClassname} `}
-                />
-                <span
-                  className={`tooltip-text border rounded text-white mt-0 -m-16 ${skill.color} `}
-                >
-                  {skill.skillName}
-                </span>
-              </div>
-            ))}
-            <div className="flex tooltip">
+      <Element name="about" className="element">
+        <div className="flex flex-col md:flex-col lg:flex-row pt-0 md:pt-10 lg:pt-10 ">
+          <div className="w-full order-last px-4">
+            <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block mb-5">
+              About me & What I do
+            </h2>
+            <p className=" text-sm pt-4 text-gray-700 text-justify custom-libre-font">
+              I'm a motivated full stack Developer and Computer Engineering
+              undergraduate with great passion for building excellent softwares.
+              I build fun stuffs using mostly Python and JavaScript. I offer 2
+              years of development experience, a strong aptitude for learning
+              new technologies, and a proven track record of meeting aggressive
+              goals. My most notable skills include:
+            </p>
+            {/* <div
+            className=" rounded overflow-hidden shadow-lg min-h-full transition duration-500
+    ease-in-out transform hover:-translate-y-1 custom-libre-font "
+          > */}
+            {/* <div className="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+              - HTML - CSS - JavaScript(ES6) - Python - React, Angular, JQuery -
+              Django - Django Rest Framework - NextJS - Wordpress - Bootstrap -
+              Tailwind CSS - Python - PostgreSQL - Sqlite
+            </div> */}
+            <div className="grid grid-cols-3 gap-5 lg:grid-cols-4 justify-center items-center text-center rounded  p-8">
+              {softwareSkills.map((skill, idx) => (
+                <div key={idx} className="">
+                  <span className="inline-block bg-gray-200 rounded-full px-3  py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
+                    #{skill.skillName}
+                  </span>
+                </div>
+              ))}
+            </div>
+            {/* <div className="flex tooltip">
               <div>
                 <span
                   className="iconify text-gray-500 text-4xl  m-8 transition duration-500
@@ -146,13 +152,14 @@ function About() {
                   Tailwind CSS
                 </span>
               </div>
-            </div>
+            </div> */}
+            {/* </div> */}
+          </div>
+          <div>
+            <img src="./about_me.png" />
           </div>
         </div>
-        <div>
-          <img src="./about_me.png" />
-        </div>
-      </div>
+      </Element>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React from "react"
 import VerticalCard from "./VerticalCard"
+import { Element } from "react-scroll"
 
 const testimonials = [
   {
@@ -20,16 +21,18 @@ const testimonials = [
 
 function Testimonials() {
   return (
-    <div className="p-8">
-      <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block my-4">
-        Testimonials
-      </h2>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {testimonials.map((testimonial, idx) => (
-          <VerticalCard testimonial={testimonial} key={idx} />
-        ))}
+    <Element name="testimonials" className="element">
+      <div className="p-8">
+        <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block my-4">
+          Testimonials
+        </h2>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {testimonials.map((testimonial, idx) => (
+            <VerticalCard testimonial={testimonial} key={idx} />
+          ))}
+        </div>
       </div>
-    </div>
+    </Element>
   )
 }
 

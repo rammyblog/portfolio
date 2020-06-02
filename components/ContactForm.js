@@ -2,7 +2,7 @@ import React from "react"
 
 function ContactForm() {
   return (
-    <div>
+    <div className="px-8">
       <h2 className="text-xl lg:text-2xl inline-block px-0 custom-box-shadow mb-8">
         Send me a message
       </h2>
@@ -23,10 +23,10 @@ function ContactForm() {
               placeholder="Jane"
             />
           </div>
-          <div class="w-full md:w-1/2 px-3">
+          <div class="w-full md:w-1/2">
             <label
               class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="grid-last-name"
+              for="email"
             >
               email
             </label>

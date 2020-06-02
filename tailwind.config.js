@@ -22,6 +22,7 @@ module.exports = {
     fontFamily: {
       display: ["Libre Baskerville", "serif"],
       body: ["Playfair Display", "serif"],
+      header: ["Homemade Apple", "cursive"],
     },
     inset: {
       "0": 0,
