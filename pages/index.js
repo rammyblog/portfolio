@@ -3,7 +3,7 @@ import Header from "../components/header"
 import About from "../components/about"
 import Projects from "../components/projects"
 import Testimonials from "../components/Testimonials"
-import ContactForm from "../components/ContactForm"
+import Footer from "../components/Footer"
 
 export default function IndexPage() {
   return (
@@ -14,7 +14,7 @@ export default function IndexPage() {
         <About />
         <Projects />
         <Testimonials />
-        <ContactForm />
+        <Footer />
       </div>
     </div>
   )
