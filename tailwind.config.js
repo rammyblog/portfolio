@@ -28,6 +28,8 @@ module.exports = {
       auto: "auto",
       "1/2": "50%",
       "3": "3rem",
+      "3": "3rem",
+      "1": "1rem",
     },
     extend: {},
   },

@@ -54,7 +54,7 @@ function Header() {
           src="./developer_activity.png"
         />
         <div onClick={handleScroll}>
-          <i className="fa fa-angle-down fa-2x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite text-blue-500 absolute right-0 bottom-3"></i>
+          <i className="fa fa-angle-down fa-3x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite text-blue-500 absolute right-1 bottom-3"></i>
         </div>
       </div>
     </>
