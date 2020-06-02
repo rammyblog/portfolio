@@ -21,6 +21,12 @@ function Header() {
   return (
     <>
       <div className="relative flex p-0 md:py-20 lg:py-20 justify-center items-center flex-col  text-gray-800 text-center h-screen mb-10 ">
+        <div className="rounded-full flex items-center justify-center w-40">
+          <img
+            src="./onasanya_tunde.jpg"
+            className="rounded-full h-40 w-40  flex items-center justify-center"
+          />
+        </div>
         <h1 className="font-extrabold text-xl md:text-5xl lg:text-6xl">
           Hi! <span className="text-md font-medium">👋</span>, I'm{" "}
           <span className="text-blue-500 shadow-md custom-box-shadow">
