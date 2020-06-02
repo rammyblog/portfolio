@@ -32,7 +32,12 @@ module.exports = {
       "3": "3rem",
       "1": "1rem",
     },
-    extend: {},
+    extend: {
+      height: {
+        "85-screen": "85vh",
+        "84-screen": "84vh",
+      },
+    },
   },
   variants: {
     backgroundColor: ["responsive", "hover", "focus"],

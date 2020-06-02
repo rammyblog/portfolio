@@ -20,7 +20,7 @@ function Header() {
   ]
   return (
     <>
-      <div className="flex justify-center items-center flex-col  text-gray-800 text-center h-screen mb-0 lg:mb-10 ">
+      <div className="flex justify-center items-center flex-col  text-gray-800 text-center h-84-screen mb-0 lg:mb-10 ">
         <div className="rounded-full flex items-center justify-center w-40">
           <img
             src="./onasanya_tunde.jpg"
@@ -70,7 +70,7 @@ function Header() {
           className="w-full lg:w-2/4 max-w-full h-auto"
           src="./developer_activity.png"
         /> */}
-        <div onClick={handleScroll}>
+        <div onClick={handleScroll} className="mt-4">
           <i className="fa fa-angle-down fa-3x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite text-blue-500 mx-auto"></i>
         </div>
       </div>
