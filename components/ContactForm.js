@@ -2,10 +2,13 @@ import React from "react"
 
 function ContactForm() {
   return (
-    <>
-      <form class="w-full max-w-lg p-8 ">
-        <div class="flex flex-wrap -mx-3 mb-6">
-          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+    <div>
+      <h2 className="text-xl lg:text-2xl inline-block px-0 custom-box-shadow mb-8">
+        Send me a message
+      </h2>
+      <form class="w-full max-w-lg  ">
+        <div class="flex flex-wrap mb-6">
+          <div class="w-full md:w-1/2 mb-6 md:mb-0">
             <label
               class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               for="grid-first-name"
@@ -36,7 +39,7 @@ function ContactForm() {
             />
           </div>
         </div>
-        <div class="mb-4 -mx-3 mb-6">
+        <div class=" mb-6">
           <label
             class="block text-gray-700 text-sm font-bold mb-2"
             for="message"
@@ -55,8 +58,14 @@ function ContactForm() {
             placeholder="message"
           /> */}
         </div>
+        <input
+          type="submit"
+          className="font-normal bg-white transition duration-500 
+                        ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 
+                         shadow-outline text-blue-500 rounded border-blue-500 px-8 py-2 my-8"
+        />
       </form>
-    </>
+    </div>
   )
 }
 
