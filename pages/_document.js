@@ -27,6 +27,10 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script src="./scripts/imagesloaded.pkgd.min.js"></script>
+          <script src="./scripts/hammer.min.js"></script>
+          <script src="./scripts/sequence.min.js"></script>
+          <script src="./scripts/sequence-theme.modern-slide-in.js"></script>
         </body>
       </Html>
     )
