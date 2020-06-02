@@ -1,6 +1,8 @@
 module.exports = {
+  // purge: ['"./components/**/*.js", "./pages/**/*.js"]'],
   purge: {
-    content: ['"./components/**/*.js", "./pages/**/*.js"]'],
+    enabled: true,
+    content: ["./components/**/*.js", "./pages/**/*.js"],
 
     // These options are passed through directly to PurgeCSS
     options: {
