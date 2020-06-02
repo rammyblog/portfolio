@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm"
 function Footer() {
   return (
     <>
-      <div>
+      <div className="p-8">
         <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block my-4">
           Reach Out to me!
         </h2>
@@ -14,7 +14,7 @@ function Footer() {
         </p>
       </div>
       <div className="flex flex-col lg:flex-row md:flex-row w-full justify-between text-gray-800">
-        <div className="text-xl custom-libre-font leading-loose py-2">
+        <div className="text-xl custom-libre-font leading-loose py-2 p-8">
           <a>onasanyatunde67@gmail.com</a>
           <a className="block">+2349051053101</a>
 
