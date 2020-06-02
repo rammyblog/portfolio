@@ -8,11 +8,16 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll"
+import Button from "./Button"
 
 function Header() {
   const handleScroll = () => {
     scroll.scrollMore(800)
   }
+  const headingButtonDetails = [
+    { text: "Download my Resume", link: "#" },
+    { text: "Contact Me", link: "#" },
+  ]
   return (
     <>
       <div className="relative flex p-0 md:py-20 lg:py-20 justify-center items-center flex-col  text-gray-800 text-center h-screen mb-10 ">
@@ -49,10 +54,16 @@ function Header() {
             <i class="fas fa-envelope p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-red-700 transform hover:-translate-y-1 hover:scale-110 "></i>
           </a>
         </div>
-        <img
+
+        <div className="flex ">
+          {headingButtonDetails.map((detail, idx) => (
+            <Button text={detail.text} link={detail.link} key={idx} />
+          ))}
+        </div>
+        {/* <img
           className="w-full lg:w-2/4 max-w-full h-auto"
           src="./developer_activity.png"
-        />
+        /> */}
         <div onClick={handleScroll}>
           <i className="fa fa-angle-down fa-3x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite text-blue-500 absolute right-1 bottom-3"></i>
         </div>

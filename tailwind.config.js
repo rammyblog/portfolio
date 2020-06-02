@@ -1,5 +1,5 @@
 module.exports = {
-  // purge: ['"./components/**/*.js", "./pages/**/*.js"]'],
+  // purge: ["./components/**/*.js", "./pages/**/*.js"],
   purge: {
     enabled: true,
     content: ["./components/**/*.js", "./pages/**/*.js"],
@@ -20,7 +20,7 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      display: ["Playfair Display", "serif"],
+      display: ["Libre Baskerville", "serif"],
       body: ["Playfair Display", "serif"],
     },
     inset: {

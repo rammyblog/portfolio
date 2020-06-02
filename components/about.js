@@ -96,12 +96,13 @@ function About() {
           <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block">
             About me & What I do
           </h2>
-          <p className=" text-xl text-gray-700 text-justify">
+          <p className=" text-sm pt-4 text-gray-700 text-justify custom-libre-font">
             I'm a motivated full stack Developer and Computer Engineering
-            undergraduate with great passion for building excellent softwares.{" "}
-            <br />I build fun stuffs using mostly Python and JavaScript. When
-            I'm not smacking a keyboard, you can bet I'm either playing COD or a
-            watching a football game.
+            undergraduate with great passion for building excellent softwares. I
+            build fun stuffs using mostly Python and JavaScript. I offer 2 years
+            of development experience, a strong aptitude for learning new
+            technologies, and a proven track record of meeting aggressive goals.
+            My most notable skills include:
           </p>
           <div className="grid grid-cols-3 ">
             {softwareSkills.map((skill, idx) => (

@@ -1,8 +1,13 @@
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 
 html {
   @apply font-body;
+}
+
+.custom-libre-font {
+  @apply font-display;
 }
 
 .btn-blue {
@@ -44,3 +49,4 @@ html {
   visibility: visible;
 }
 @tailwind utilities;
+/* purgecss end ignore */

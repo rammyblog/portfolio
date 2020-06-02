@@ -1,5 +1,6 @@
 import portfolioDetails from "./portfolio"
 import Card from "./card"
+import Button from "./Button"
 // import { Card } from "antd"
 
 // const { Meta } = Card
@@ -33,6 +34,12 @@ function Projects() {
           </Card> */}
           </div>
         ))}
+      </div>
+      <div className="flex justify-center mt-8">
+        <Button
+          text={"See more Projects"}
+          link="https://github.com/rammyblog"
+        />
       </div>
     </div>
   )
