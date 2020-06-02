@@ -6,8 +6,8 @@ import Projects from "../components/projects"
 export default function IndexPage() {
   return (
     <div>
-      <Nav />
       <div className="container mx-auto">
+        <Nav />
         <Header />
         <About />
         <Projects />

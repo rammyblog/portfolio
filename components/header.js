@@ -1,9 +1,21 @@
 import Typed from "react-typed"
+import * as Scroll from "react-scroll"
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll"
 
 function Header() {
+  const handleScroll = () => {
+    scroll.scrollMore(800)
+  }
   return (
     <>
-      <div className="flex p-0 md:py-20 lg:py-20 justify-center items-center flex-col  text-gray-800 text-center h-screen mb-10 ">
+      <div className="relative flex p-0 md:py-20 lg:py-20 justify-center items-center flex-col  text-gray-800 text-center h-screen mb-10 ">
         <h1 className="font-extrabold text-xl md:text-5xl lg:text-6xl">
           Hi! <span className="text-md font-medium">👋</span>, I'm{" "}
           <span className="text-blue-500 shadow-md custom-box-shadow">
@@ -41,6 +53,9 @@ function Header() {
           className="w-full lg:w-2/4 max-w-full h-auto"
           src="./developer_activity.png"
         />
+        <div onClick={handleScroll}>
+          <i className="fa fa-angle-down fa-2x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite text-blue-500 absolute right-0 bottom-3"></i>
+        </div>
       </div>
     </>
   )

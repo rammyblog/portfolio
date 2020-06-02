@@ -91,17 +91,19 @@ function About() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row lg:flex-row pt-0 md:pt-10 lg:pt-10 ">
+      <div className="flex flex-col md:flex-col lg:flex-row pt-0 md:pt-10 lg:pt-10 ">
         <div className="w-full order-first md:order-last lg:order-last pt-20 px-4">
-          <h2 className="text-3xl">About me & What I do</h2>
-          <p className="text-gray-700">
+          <h2 className="text-3xl lg:text-5xl custom-box-shadow">
+            About me & What I do
+          </h2>
+          <p className=" text-xl text-gray-700 text-justify">
             I'm a motivated full stack Developer and Computer Engineering
             undergraduate with great passion for building excellent softwares.{" "}
             <br />I build fun stuffs using mostly Python and JavaScript. When
             I'm not smacking a keyboard, you can bet I'm either playing COD or a
             watching a football game.
           </p>
-          <div>
+          <div className="grid grid-cols-3 ">
             {softwareSkills.map((skill, idx) => (
               <div key={idx} className="tooltip inline">
                 <i

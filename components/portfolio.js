@@ -18,6 +18,7 @@ const portfolioDetails = [
       "Next.js",
     ],
     engagementPeriod: "May 2020",
+    image: "./portfolio_images/devconnectz-netlify-app.png",
   },
 
   {
@@ -48,6 +49,7 @@ const portfolioDetails = [
       "Beautiful Soup",
     ],
     engagementPeriod: "April 2020",
+    image: "./portfolio_images/covidnewsng-netlify-app.png",
   },
   {
     id: 3,
@@ -74,6 +76,7 @@ const portfolioDetails = [
       "Beautiful Soup",
     ],
     engagementPeriod: "November 2019",
+    image: "./portfolio_images/docufix.png",
   },
   {
     id: 4,
@@ -97,6 +100,7 @@ const portfolioDetails = [
       "Redis",
     ],
     engagementPeriod: "December 2019",
+    image: "./portfolio_images/afrivent.png",
   },
 
   {
@@ -111,6 +115,7 @@ const portfolioDetails = [
     `,
     skills: ["HTML5", "CSS", "Javascript", "Tailwind Css", "ReactJS", "NextJs"],
     engagementPeriod: "May 2020",
+    image: "./portfolio_images/rates-exchanger-now-sh.png",
   },
 ]
 

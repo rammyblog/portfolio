@@ -21,6 +21,12 @@ module.exports = {
       display: ["Playfair Display", "serif"],
       body: ["Playfair Display", "serif"],
     },
+    inset: {
+      "0": 0,
+      auto: "auto",
+      "1/2": "50%",
+      "3": "3rem",
+    },
     extend: {},
   },
   variants: {},

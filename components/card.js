@@ -1,29 +1,36 @@
-function Card() {
+function Card({ project }) {
+  const {
+    projectName,
+    shortDesc,
+    web,
+    github,
+    longDesc,
+    skills,
+    engagementPeriod,
+    image,
+  } = project
+
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        className="w-full"
-        src="./portfolio_images/covidnewsng-netlify-app.png"
-        alt="Sunset in the mountains"
-      />
+    <div
+      className="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500
+    ease-in-out transform hover:-translate-y-1 hover:scale-110 "
+    >
+      <img className="w-full" src={image} alt={projectName} />
       <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-        <p className="text-gray-700 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
-          nihil.
-        </p>
+        <span className="block text-black font-bold text-xl mb-2 ">
+          {projectName}
+        </span>
+        <p className="text-gray-700 text-base">{shortDesc}</p>
       </div>
       <div className="px-6 py-4">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-          #photography
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-          #travel
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">
-          #winter
-        </span>
+        {skills.map((skill, id) => (
+          <span
+            key={id}
+            className="inline-block bg-gray-200 rounded-full px-3 py-2 mt-2 text-sm font-semibold text-gray-700 mr-2"
+          >
+            #{skill}
+          </span>
+        ))}
       </div>
     </div>
   )

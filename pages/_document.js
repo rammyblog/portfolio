@@ -23,14 +23,14 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
           />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+          />
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script src="./scripts/imagesloaded.pkgd.min.js"></script>
-          <script src="./scripts/hammer.min.js"></script>
-          <script src="./scripts/sequence.min.js"></script>
-          <script src="./scripts/sequence-theme.modern-slide-in.js"></script>
         </body>
       </Html>
     )

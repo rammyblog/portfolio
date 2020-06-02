@@ -7,10 +7,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "animate.css": "^4.1.0",
     "antd": "^4.2.4",
     "next": "^9.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-scroll": "^1.7.16",
     "react-typed": "^1.2.0",
     "serve": "^11.3.1"
   },
