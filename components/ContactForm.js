@@ -3,7 +3,7 @@ import React from "react"
 function ContactForm() {
   return (
     <>
-      <form class="w-full max-w-lg ">
+      <form class="w-full max-w-lg p-8 ">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
@@ -36,7 +36,7 @@ function ContactForm() {
             />
           </div>
         </div>
-        <div class="mb-4 -mx-3 mb-6 p-4">
+        <div class="mb-4 -mx-3 mb-6">
           <label
             class="block text-gray-700 text-sm font-bold mb-2"
             for="message"
@@ -44,9 +44,9 @@ function ContactForm() {
             Message
           </label>
           <textarea
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full p-8 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             cols="30"
-            row="5"
+            row="20"
           />
           {/* <input
             class=""
