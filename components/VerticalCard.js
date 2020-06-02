@@ -8,8 +8,8 @@ function VerticalCard({ testimonial }) {
         <i class="fas fa-quote-left fa-2x px-4"></i>
         {desc}
       </p>
-      <span className="float-right">
-        <a className="text-blue-500" href={linkedin}>
+      <span className="float-right pt-4">
+        <a className="text-blue-500 font-semibold" href={linkedin}>
           {name}
         </a>
         , {jobTitle}

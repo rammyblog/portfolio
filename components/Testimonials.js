@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "He's a very good developer with passion to make a difference. He's built a lot of applications and I really would endorse him",
+      "He's a very good developer with passion to make a difference. He's built a lot of applications and I really would endorse him.",
     name: "Adewale Bukunmi",
     linkedin: "https://www.linkedin.com/in/oluwabukunmiadewale3/",
     jobTitle: "Fullstack Developer",

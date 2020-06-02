@@ -109,7 +109,7 @@ function About() {
               <div key={idx} className="tooltip inline">
                 <i
                   className={`text-gray-500 text-4xl  p-5 mx-5 transition duration-500
-                 ease-in-out  hover:text-white transform hover:-translate-y-1 hover:scale-110 ${skill.fontAwesomeClassname} hover:${skill.color}`}
+                 ease-in-out  hover:text-white hover::${skill.color} transform hover:-translate-y-1 hover:scale-110 ${skill.fontAwesomeClassname} `}
                 />
                 <span
                   className={`tooltip-text border rounded text-white mt-0 -m-16 ${skill.color} `}
