@@ -44,7 +44,11 @@ function Header() {
                 "Motivated, Passionate, Talented",
               ]}
               loop={true}
-              typeSpeed={40}
+              typeSpeed={50}
+              backSpeed={20}
+              backDelay={3000}
+              smartBackspace={false}
+              cursorChar={"_"}
             />
           </span>
         </h1>
@@ -75,7 +79,7 @@ function Header() {
           src="./developer_activity.png"
         /> */}
         <div onClick={handleScroll} className="mt-4">
-          <i className="fa fa-angle-down fa-3x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite text-blue-500 mx-auto"></i>
+          <i className="fa fa-angle-down fa-3x animate__animated animate__infinite  animate__animated animate__bounce animate__infinite animate__slow	 text-blue-500 mx-auto"></i>
         </div>
       </div>
     </>
