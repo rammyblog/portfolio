@@ -11,7 +11,7 @@ function Footer() {
           <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block my-4">
             Reach Out to me!
           </h2>
-          <p className="text-2xl">
+          <p className="text-2xl custom-libre-font">
             Interested in working together? Wherever you are with your idea or
             your project, I'll be happy to help. Ready to make a difference?
           </p>
