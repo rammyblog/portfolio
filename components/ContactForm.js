@@ -32,7 +32,7 @@ function ContactForm() {
         {
           subject: subject,
           body: body,
-          mailing_list: 89,
+          mailing_list: 1,
           sent_date: sent_date,
         },
         {
@@ -41,11 +41,10 @@ function ContactForm() {
           },
         }
       )
-      console.log(res)
 
       setemailSent(true)
     } catch (error) {
-      console.log(error)
+      console.log("An error occured")
       setError(true)
     }
     setLoading(false)
@@ -142,6 +141,7 @@ function ContactForm() {
           className="font-normal bg-white transition duration-500 
                         ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 
                          shadow-outline text-blue-500 rounded border-blue-500 px-8 py-2 my-8"
+          value={!loading ? "Send Email" : "Sending..."}
         />
       </form>
     </div>
