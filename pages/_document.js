@@ -35,16 +35,17 @@ class MyDocument extends Document {
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-103257009-2"
           ></script>
-          <script>
-            dangerouslySetInnerHTML=
-            {{
-              __html: `[
-            window.dataLayer = window.dataLayer || [];
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-103257009-2');]`,
+            gtag('config', 'UA-103257009-2');
+              `,
             }}
-          </script>
+          />
 
           <meta httpEquiv="content-language" content="en"></meta>
 
