@@ -15,8 +15,12 @@ function Header() {
     scroll.scrollMore(700)
   }
   const headingButtonDetails = [
-    { text: "Download my Resume", link: "#" },
-    { text: "Contact Me", link: "#" },
+    {
+      text: "Download my Resume",
+      link:
+        "https://drive.google.com/file/d/1OjLooAmDhiL6P5xxj1fDtjsa08p-KCBo/view?usp=sharing",
+    },
+    { text: "Contact Me", link: "#contact" },
   ]
   return (
     <>

@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       <Element name="contact" className="element">
-        <div className="p-8 ">
+        <div className="p-8" id="contact">
           <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block my-4">
             Reach Out to me!
           </h2>
