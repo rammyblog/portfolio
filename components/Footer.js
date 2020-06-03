@@ -21,7 +21,7 @@ function Footer() {
               {" "}
               <i className="fas fa-envelope"></i> onasanyatunde67@gmail.com
             </a>
-            <a className="block">
+            <a className="block" href="tel:+2349051053101">
               <i class="fas fa-phone-alt"></i> +2349051053101
             </a>
             <p>
