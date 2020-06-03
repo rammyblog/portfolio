@@ -31,9 +31,24 @@ function About() {
       color: "bg-green-800",
     },
     {
+      skillName: "Django Rest Framework",
+      fontAwesomeClassname: "devicon-django-plain",
+      color: "bg-green-800",
+    },
+    {
+      skillName: "Celery",
+      fontAwesomeClassname: "devicon-django-plain",
+      color: "bg-green-800",
+    },
+    {
       skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react",
       color: "bg-blue-300",
+    },
+    {
+      skillName: "NextJS",
+      fontAwesomeClassname: "devicon-django-plain",
+      color: "bg-green-800",
     },
 
     {
@@ -53,6 +68,16 @@ function About() {
     },
     {
       skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap",
+      color: "bg-indigo-700",
+    },
+    {
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "fab fa-bootstrap",
+      color: "bg-indigo-700",
+    },
+    {
+      skillName: "Styled Components",
       fontAwesomeClassname: "fab fa-bootstrap",
       color: "bg-indigo-700",
     },
@@ -115,13 +140,14 @@ function About() {
               Django - Django Rest Framework - NextJS - Wordpress - Bootstrap -
               Tailwind CSS - Python - PostgreSQL - Sqlite
             </div> */}
-            <div className="grid grid-cols-3 gap-5 lg:grid-cols-4 justify-center items-center text-center rounded  p-8">
+            <div className="justify-center items-center text-center rounded">
               {softwareSkills.map((skill, idx) => (
-                <div key={idx} className="">
-                  <span className="inline-block bg-gray-200 rounded-full px-3  py-2 mt-2 text-sm font-semibold text-gray-700 mr-2">
-                    #{skill.skillName}
-                  </span>
-                </div>
+                <span
+                  key={idx}
+                  className="inline-block bg-gray-200 rounded-full px-3  py-2 mt-2 text-sm font-semibold text-gray-700 mr-2"
+                >
+                  #{skill.skillName}
+                </span>
               ))}
             </div>
             {/* <div className="flex tooltip">
