@@ -21,9 +21,11 @@ export default function Nav() {
     <>
       <nav className="flex items-center justify-between flex-wrap text-gray-700 p-6">
         <div className="flex items-center flex-shrink-0 flex-grow text-gray-700 mr-6">
-          <span className="font-semibold text-gray-700  font-header text-xl tracking-tight">
-            Onasanya Tunde
-          </span>
+          <a href="#">
+            <span className="font-semibold text-gray-700  font-header text-xl tracking-tight">
+              Onasanya Tunde
+            </span>
+          </a>
         </div>
         <div className="block lg:hidden" onClick={() => setOpen(!open)}>
           <button className="flex items-center px-3 py-2 border rounded text-gray-700 border-teal-400 hover:text-black hover:border-white">
@@ -68,7 +70,7 @@ export default function Nav() {
             >
               <a
                 href="#projects"
-                className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 "
               >
                 Projects
               </a>
@@ -103,15 +105,6 @@ export default function Nav() {
                 Contact
               </a>
             </ScrollLink>
-
-            <a
-              href="https://drive.google.com/file/d/1OjLooAmDhiL6P5xxj1fDtjsa08p-KCBo/view?usp=sharing"
-              className="font-normal bg-white transition duration-500 
-              ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 
-               shadow-outline text-blue-500 rounded border-blue-500 px-8 py-2 mt-8 lg:mt-0 mr-4"
-            >
-              Download Resume
-            </a>
           </div>
         </div>
       </nav>
