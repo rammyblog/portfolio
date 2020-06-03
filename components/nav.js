@@ -105,10 +105,10 @@ export default function Nav() {
             </ScrollLink>
 
             <a
-              href="#"
+              href="https://"
               className="font-normal bg-white transition duration-500 
-                        ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 
-                         shadow-outline text-blue-500 rounded border-blue-500 px-8 py-2 mt-8 lg:mt-0 mr-4"
+              ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 
+               shadow-outline text-blue-500 rounded border-blue-500 px-8 py-2 mt-8 lg:mt-0 mr-4"
             >
               Download Resume
             </a>

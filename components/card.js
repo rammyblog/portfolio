@@ -17,9 +17,9 @@ function Card({ project }) {
     >
       <img className="w-full" src={image} alt={projectName} />
       <div className="px-6 py-4">
-        <span className="block text-black font-bold text-xl mb-2 ">
+        <a href={web} className="block text-blue-500 font-bold text-xl mb-2 ">
           {projectName}
-        </span>
+        </a>
         <p className="text-gray-700 text-base">{shortDesc}</p>
       </div>
       <div className="px-6 py-4">

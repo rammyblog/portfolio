@@ -12,7 +12,7 @@ import Button from "./Button"
 
 function Header() {
   const handleScroll = () => {
-    scroll.scrollMore(800)
+    scroll.scrollMore(700)
   }
   const headingButtonDetails = [
     { text: "Download my Resume", link: "#" },

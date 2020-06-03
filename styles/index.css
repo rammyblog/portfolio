@@ -1,4 +1,3 @@
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 
@@ -49,4 +48,3 @@ html {
   visibility: visible;
 }
 @tailwind utilities;
-/* purgecss end ignore */
