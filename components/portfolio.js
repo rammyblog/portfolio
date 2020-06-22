@@ -1,6 +1,27 @@
 const portfolioDetails = [
   {
     id: 1,
+    projectName: "BaseMailer",
+    shortDesc:
+      "An email marketing platform aimed at ensuring users send emails with great ease.",
+    web: "https://basemailer.com/",
+    github: "https://github.com/rammyblog/",
+    longDesc:
+      "An email marketing platform aimed at ensuring users send emails with great ease.",
+    skills: [
+      "Python",
+      "Django",
+      "Django Rest Framework",
+      "Celery",
+      "Redis",
+      "PostgreSQL",
+    ],
+    engagementPeriod: "May 2020",
+    image: "./portfolio_images/basemailer.png",
+  },
+
+  {
+    id: 2,
     projectName: "Devconnector",
     shortDesc:
       "Create Developer profile/portfolio, share posts and get help from other developers",
@@ -22,7 +43,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 2,
+    id: 3,
     projectName: "Covid 19 News",
     shortDesc:
       "Development of a new scraper, web app and mobile application to share news about the Covid-19 pandemic in Nigeria",
@@ -52,7 +73,7 @@ const portfolioDetails = [
     image: "./portfolio_images/covidnewsng-netlify-app.png",
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Docufix",
     shortDesc:
       "This is an app that compares document content and find out the differences contained in each of the files",
@@ -79,7 +100,7 @@ const portfolioDetails = [
     image: "./portfolio_images/docufix.png",
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Afrivent",
     shortDesc: "Event Ticketing Web App",
     web: "https://afrivent.herokuapp.com/",
@@ -104,7 +125,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 5,
+    id: 6,
     projectName: "Currency Exchanger",
     shortDesc: "An exchange rates website",
     web: "https://rates-exchanger.now.sh/",
