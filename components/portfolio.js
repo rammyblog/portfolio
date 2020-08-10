@@ -1,6 +1,29 @@
 const portfolioDetails = [
   {
     id: 1,
+    projectName: "MERN DASH",
+    shortDesc:
+      "An admin dashboard built using Node, Express, MongoDB and Reactfor managing users easily. ",
+    web: "https://mern-admin-dashboard.herokuapp.com/",
+    github: "https://github.com/rammyblog/MERN-Admin-Dashboard",
+    longDesc:
+      "An admin dashboard built using Node, Express, Node and React to for managing users easily. Coming from a django background, there is a free admin panel all models, So I decided to build one with MERN so I could easily manage the user data easily.",
+    skills: [
+      "HTML5",
+      "CSS",
+      "Node",
+      "Express",
+      "MongoDB",
+      "ReactJs",
+      "Styled Components",
+      "AntD",
+    ],
+    engagementPeriod: "August 2020",
+    image: "./portfolio_images/merndash.png",
+  },
+
+  {
+    id: 2,
     projectName: "pTracker",
     shortDesc:
       "pTracker is an application that tracks prices of products on E-commerce websites(i.e. Jumia and Konga),All you need to do is add the product on your dashboard. Then you will receive an email alert once the product sells at your desired price or lower.",
@@ -23,7 +46,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 2,
+    id: 3,
     projectName: "BaseMailer",
     shortDesc:
       "An email marketing platform aimed at ensuring users send emails with great ease.",
@@ -44,7 +67,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 3,
+    id: 4,
     projectName: "Devconnector",
     shortDesc:
       "Create Developer profile/portfolio, share posts and get help from other developers",
@@ -66,7 +89,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 4,
+    id: 5,
     projectName: "Covid 19 News",
     shortDesc:
       "Development of a new scraper, web app and mobile application to share news about the Covid-19 pandemic in Nigeria",
@@ -96,7 +119,7 @@ const portfolioDetails = [
     image: "./portfolio_images/covidnewsng-netlify-app.png",
   },
   {
-    id: 5,
+    id: 6,
     projectName: "Docufix",
     shortDesc:
       "This is an app that compares document content and find out the differences contained in each of the files",
@@ -123,7 +146,7 @@ const portfolioDetails = [
     image: "./portfolio_images/docufix.png",
   },
   {
-    id: 6,
+    id: 7,
     projectName: "Afrivent",
     shortDesc: "Event Ticketing Web App",
     web: "https://afrivent.herokuapp.com/",
@@ -148,7 +171,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 7,
+    id: 8,
     projectName: "Currency Exchanger",
     shortDesc: "An exchange rates website",
     web: "https://rates-exchanger.now.sh/",
