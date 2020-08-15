@@ -18,7 +18,7 @@ function Header() {
     {
       text: "Download my Resume",
       link:
-        "https://drive.google.com/file/d/1DxZU1-Zx2kDWLZv3IBocaww8rrDa4-Ug/view?usp=sharing",
+        "https://docs.google.com/document/d/1dyhpzGgPyFgevUEkWcRt1WAERnDHURwNT057coHlfN0/edit",
     },
     { text: "Contact Me", link: "#contact" },
   ]
