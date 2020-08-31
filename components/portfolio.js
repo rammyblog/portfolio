@@ -1,6 +1,19 @@
 const portfolioDetails = [
   {
     id: 1,
+    projectName: "CodeClan Nigeria",
+    shortDesc:
+      "I led the frontend team that built an open-source web app where new developers can learn different stacks and get assigned a mentor to guide them through the program.",
+    web: "https://www.codeclannigeria.dev",
+    github: "https://github.com/codeclannigeria/codeclannigeria-frontend",
+    longDesc:
+      "I led the frontend team that built an open-source web app where new developers can learn different stacks and get assigned a mentor to guide them through the program.",
+    skills: ["ReactJs", "Styled Components", "Bootstrap", "AntD"],
+    engagementPeriod: "May - August 2020",
+    image: "./portfolio_images/codeclan_community.png",
+  },
+  {
+    id: 1,
     projectName: "MERN DASH",
     shortDesc:
       "An admin dashboard built using Node, Express, MongoDB and Reactfor managing users easily. ",
