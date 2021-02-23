@@ -105,7 +105,7 @@ const portfolioDetails = [
     projectName: "Barely Naked NG",
     shortDesc:
       "I built an ecommerce web solution for a fashion company",
-    web: "https://www.codeclannigeria.dev",
+    web: "https://bncollections.com/",
     github: "#",
     longDesc:
       "",
