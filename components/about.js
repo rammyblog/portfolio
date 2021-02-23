@@ -113,6 +113,11 @@ function About() {
       fontAwesomeClassname: "devicon-postgresql-plain",
       color: "bg-blue-500",
     },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "devicon-postgresql-plain",
+      color: "bg-blue-500",
+    },
   ]
 
   return (
