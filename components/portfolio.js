@@ -100,7 +100,46 @@ const portfolioDetails = [
     engagementPeriod: "May 2020",
     image: "./portfolio_images/devconnectz-netlify-app.png",
   },
-
+  {
+    id: 1,
+    projectName: "Barely Naked NG",
+    shortDesc:
+      "I built an ecommerce web solution for a fashion company",
+    web: "https://www.codeclannigeria.dev",
+    github: "#",
+    longDesc:
+      "",
+    skills: ["Wordpress"],
+    engagementPeriod: "December 2020",
+    image: "./portfolio_images/bn.png",
+  },
+  {
+    id: 1,
+    projectName: "Simply Fragrances NG",
+    shortDesc:
+      "I built an ecommerce web solution for a perfume company",
+    web: "https://simplyfragrancesng.com/",
+    github: "#",
+    longDesc:
+      "",
+    skills: ["Wordpress"],
+    engagementPeriod: "April 2020",
+    image: "./portfolio_images/SimplyFragrance.png",
+  },
+  {
+    id: 1,
+    projectName: "FnF",
+    shortDesc:
+      "I built a music sharing platform for a music artist",
+    web: "https://freestyles-n-features.vercel.app/",
+    github: "#",
+    longDesc:
+      "",
+    skills: ["React", "NextJs",     "HTML5",
+    "CSS",],
+    engagementPeriod: "January 2021",
+    image: "./portfolio_images/macro.png",
+  },
   {
     id: 5,
     projectName: "Covid 19 News",
