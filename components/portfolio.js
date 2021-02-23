@@ -10,7 +10,7 @@ const portfolioDetails = [
       "I led the frontend team that built an open-source web app where new developers can learn different stacks and get assigned a mentor to guide them through the program.",
     skills: ["ReactJs", "Styled Components", "Bootstrap", "AntD"],
     engagementPeriod: "May - August 2020",
-    image: "./portfolio_images/codeclan_community.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108159/portfolio/codeclan_community.png",
   },
   {
     id: 1,
@@ -32,7 +32,7 @@ const portfolioDetails = [
       "AntD",
     ],
     engagementPeriod: "August 2020",
-    image: "./portfolio_images/merndash.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108161/portfolio/merndash.png",
   },
 
   {
@@ -55,7 +55,7 @@ const portfolioDetails = [
       "AntD",
     ],
     engagementPeriod: "July 2020",
-    image: "./portfolio_images/pTracker.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108161/portfolio/pTracker.png",
   },
 
   {
@@ -76,7 +76,7 @@ const portfolioDetails = [
       "PostgreSQL",
     ],
     engagementPeriod: "May 2020",
-    image: "./portfolio_images/basemailer.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108158/portfolio/basemailer.png",
   },
 
   {
@@ -98,7 +98,7 @@ const portfolioDetails = [
       "Next.js",
     ],
     engagementPeriod: "May 2020",
-    image: "./portfolio_images/devconnectz-netlify-app.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108158/portfolio/devconnectz-netlify-app.png",
   },
   {
     id: 1,
@@ -111,7 +111,7 @@ const portfolioDetails = [
       "",
     skills: ["Wordpress"],
     engagementPeriod: "December 2020",
-    image: "./portfolio_images/bn.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108163/portfolio/bn.png",
   },
   {
     id: 1,
@@ -124,7 +124,7 @@ const portfolioDetails = [
       "",
     skills: ["Wordpress"],
     engagementPeriod: "April 2020",
-    image: "./portfolio_images/SimplyFragrance.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108164/portfolio/SimplyFragrance.png",
   },
   {
     id: 1,
@@ -138,7 +138,7 @@ const portfolioDetails = [
     skills: ["React", "NextJs",     "HTML5",
     "CSS",],
     engagementPeriod: "January 2021",
-    image: "./portfolio_images/macro.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/macro.png",
   },
   {
     id: 5,
@@ -168,7 +168,7 @@ const portfolioDetails = [
       "Beautiful Soup",
     ],
     engagementPeriod: "April 2020",
-    image: "./portfolio_images/covidnewsng-netlify-app.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108159/portfolio/covidnewsng-netlify-app.png",
   },
   {
     id: 6,
@@ -195,7 +195,7 @@ const portfolioDetails = [
       "Beautiful Soup",
     ],
     engagementPeriod: "November 2019",
-    image: "./portfolio_images/docufix.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/docufix.png",
   },
   {
     id: 7,
@@ -219,7 +219,7 @@ const portfolioDetails = [
       "Redis",
     ],
     engagementPeriod: "December 2019",
-    image: "./portfolio_images/afrivent.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/afrivent.png",
   },
 
   {
@@ -234,7 +234,7 @@ const portfolioDetails = [
     `,
     skills: ["HTML5", "CSS", "Javascript", "Tailwind Css", "ReactJS", "NextJs"],
     engagementPeriod: "May 2020",
-    image: "./portfolio_images/rates-exchanger-now-sh.png",
+    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/rates-exchanger-now-sh.png",
   },
 ]
 
