@@ -131,7 +131,7 @@ function About() {
             <p className=" text-sm pt-4 text-gray-700 text-justify custom-libre-font">
               I'm a motivated full stack Developer and Computer Engineering
               undergraduate with great passion for building excellent softwares.
-              I build fun stuffs using mostly Python and JavaScript. I offer 2
+              I build fun stuffs using mostly Python and JavaScript. I offer two
               years of development experience, a strong aptitude for learning
               new technologies, and a proven track record of meeting aggressive
               goals. My most notable skills include:

@@ -13,7 +13,7 @@ const portfolioDetails = [
     image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108159/portfolio/codeclan_community.png",
   },
   {
-    id: 1,
+    id: 2,
     projectName: "MERN DASH",
     shortDesc:
       "An admin dashboard built using Node, Express, MongoDB and Reactfor managing users easily. ",
@@ -36,7 +36,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 2,
+    id: 3,
     projectName: "pTracker",
     shortDesc:
       "pTracker is an application that tracks prices of products on E-commerce websites(i.e. Jumia and Konga),All you need to do is add the product on your dashboard. Then you will receive an email alert once the product sells at your desired price or lower.",
@@ -59,7 +59,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 3,
+    id: 4,
     projectName: "BaseMailer",
     shortDesc:
       "An email marketing platform aimed at ensuring users send emails with great ease.",
@@ -80,7 +80,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 4,
+    id: 5,
     projectName: "Devconnector",
     shortDesc:
       "Create Developer profile/portfolio, share posts and get help from other developers",
@@ -101,7 +101,7 @@ const portfolioDetails = [
     image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108158/portfolio/devconnectz-netlify-app.png",
   },
   {
-    id: 1,
+    id:6,
     projectName: "Barely Naked NG",
     shortDesc:
       "I built an ecommerce web solution for a fashion company",
@@ -114,7 +114,7 @@ const portfolioDetails = [
     image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108163/portfolio/bn.png",
   },
   {
-    id: 1,
+    id: 7,
     projectName: "Simply Fragrances NG",
     shortDesc:
       "I built an ecommerce web solution for a perfume company",
@@ -127,7 +127,7 @@ const portfolioDetails = [
     image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108164/portfolio/SimplyFragrance.png",
   },
   {
-    id: 1,
+    id: 8,
     projectName: "FnF",
     shortDesc:
       "I built a music sharing platform for a music artist",
@@ -141,7 +141,7 @@ const portfolioDetails = [
     image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/macro.png",
   },
   {
-    id: 5,
+    id: 9,
     projectName: "Covid 19 News",
     shortDesc:
       "Development of a new scraper, web app and mobile application to share news about the Covid-19 pandemic in Nigeria",
@@ -171,7 +171,7 @@ const portfolioDetails = [
     image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108159/portfolio/covidnewsng-netlify-app.png",
   },
   {
-    id: 6,
+    id: 10,
     projectName: "Docufix",
     shortDesc:
       "This is an app that compares document content and find out the differences contained in each of the files",
@@ -198,7 +198,7 @@ const portfolioDetails = [
     image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/docufix.png",
   },
   {
-    id: 7,
+    id:11,
     projectName: "Afrivent",
     shortDesc: "Event Ticketing Web App",
     web: "https://afrivent.herokuapp.com/",
@@ -223,7 +223,7 @@ const portfolioDetails = [
   },
 
   {
-    id: 8,
+    id: 12,
     projectName: "Currency Exchanger",
     shortDesc: "An exchange rates website",
     web: "https://rates-exchanger.now.sh/",
