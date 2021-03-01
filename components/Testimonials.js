@@ -17,6 +17,13 @@ const testimonials = [
     linkedin: "https://www.linkedin.com/in/oluwabukunmiadewale3/",
     jobTitle: "Fullstack Developer",
   },
+  {
+    testimonial:
+      "I hired Rammy to build out my multi-page portfolio. He was reliable, communicative, responsive, and implemented everything in a timely and professional way. His technical skills were good, and he was able to build everything I wanted. All-in-all, I would recommend Rammy to colleagues or friends.",
+    name: "Ciaran Hughes",
+    linkedin: "https://www.linkedin.com/in/ciaran-hughes-866070107/",
+    jobTitle: "Scientist",
+  },
 ]
 
 function Testimonials() {
