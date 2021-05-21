@@ -10,7 +10,8 @@ const portfolioDetails = [
       "I led the frontend team that built an open-source web app where new developers can learn different stacks and get assigned a mentor to guide them through the program.",
     skills: ["ReactJs", "Styled Components", "Bootstrap", "AntD"],
     engagementPeriod: "May - August 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108159/portfolio/codeclan_community.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108159/portfolio/codeclan_community.png",
   },
   {
     id: 2,
@@ -32,7 +33,8 @@ const portfolioDetails = [
       "AntD",
     ],
     engagementPeriod: "August 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108161/portfolio/merndash.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108161/portfolio/merndash.png",
   },
 
   {
@@ -55,7 +57,8 @@ const portfolioDetails = [
       "AntD",
     ],
     engagementPeriod: "July 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108161/portfolio/pTracker.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108161/portfolio/pTracker.png",
   },
 
   {
@@ -76,7 +79,8 @@ const portfolioDetails = [
       "PostgreSQL",
     ],
     engagementPeriod: "May 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108158/portfolio/basemailer.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108158/portfolio/basemailer.png",
   },
 
   {
@@ -98,47 +102,45 @@ const portfolioDetails = [
       "Next.js",
     ],
     engagementPeriod: "May 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108158/portfolio/devconnectz-netlify-app.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108158/portfolio/devconnectz-netlify-app.png",
   },
   {
-    id:6,
+    id: 6,
     projectName: "Barely Naked NG",
-    shortDesc:
-      "I built an ecommerce web solution for a fashion company",
+    shortDesc: "I built an ecommerce web solution for a fashion company",
     web: "https://bncollections.com/",
     github: "#",
-    longDesc:
-      "",
+    longDesc: "",
     skills: ["Wordpress"],
     engagementPeriod: "December 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108163/portfolio/bn.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108163/portfolio/bn.png",
   },
-  {
-    id: 7,
-    projectName: "Simply Fragrances NG",
-    shortDesc:
-      "I built an ecommerce web solution for a perfume company",
-    web: "https://simplyfragrancesng.com/",
-    github: "#",
-    longDesc:
-      "",
-    skills: ["Wordpress"],
-    engagementPeriod: "April 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108164/portfolio/SimplyFragrance.png",
-  },
+  // {
+  //   id: 7,
+  //   projectName: "Simply Fragrances NG",
+  //   shortDesc:
+  //     "I built an ecommerce web solution for a perfume company",
+  //   web: "https://simplyfragrancesng.com/",
+  //   github: "#",
+  //   longDesc:
+  //     "",
+  //   skills: ["Wordpress"],
+  //   engagementPeriod: "April 2020",
+  //   image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108164/portfolio/SimplyFragrance.png",
+  // },
   {
     id: 8,
     projectName: "FnF",
-    shortDesc:
-      "I built a music sharing platform for a music artist",
+    shortDesc: "I built a music sharing platform for a music artist",
     web: "https://freestyles-n-features.vercel.app/",
     github: "#",
-    longDesc:
-      "",
-    skills: ["React", "NextJs",     "HTML5",
-    "CSS",],
+    longDesc: "",
+    skills: ["React", "NextJs", "HTML5", "CSS"],
     engagementPeriod: "January 2021",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/macro.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/macro.png",
   },
   {
     id: 9,
@@ -168,7 +170,8 @@ const portfolioDetails = [
       "Beautiful Soup",
     ],
     engagementPeriod: "April 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108159/portfolio/covidnewsng-netlify-app.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108159/portfolio/covidnewsng-netlify-app.png",
   },
   {
     id: 10,
@@ -195,10 +198,11 @@ const portfolioDetails = [
       "Beautiful Soup",
     ],
     engagementPeriod: "November 2019",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/docufix.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/docufix.png",
   },
   {
-    id:11,
+    id: 11,
     projectName: "Afrivent",
     shortDesc: "Event Ticketing Web App",
     web: "https://afrivent.herokuapp.com/",
@@ -219,7 +223,8 @@ const portfolioDetails = [
       "Redis",
     ],
     engagementPeriod: "December 2019",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/afrivent.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/afrivent.png",
   },
 
   {
@@ -234,8 +239,9 @@ const portfolioDetails = [
     `,
     skills: ["HTML5", "CSS", "Javascript", "Tailwind Css", "ReactJS", "NextJs"],
     engagementPeriod: "May 2020",
-    image: "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/rates-exchanger-now-sh.png",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/rates-exchanger-now-sh.png",
   },
-]
+];
 
-export default portfolioDetails
+export default portfolioDetails;

@@ -132,7 +132,7 @@ function ContactForm() {
             class=""
             id="message"
             type="text"
-            placeholder="message"
+          placeholder="message"
           /> */}
         </div>
         <input
