@@ -54,18 +54,18 @@ function Header() {
         </h1>
         <div className="text-3xl py-2">
           <a href="https://twitter.com/simply_rammy">
-            <i class="fab fa-twitter p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110"></i>
+            <i className="fab fa-twitter p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110"></i>
           </a>
 
           <a href="https://github.com/rammyblog">
-            <i class="fab fa-github p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-gray-900 transform hover:-translate-y-1 hover:scale-110"></i>
+            <i className="fab fa-github p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-gray-900 transform hover:-translate-y-1 hover:scale-110"></i>
           </a>
           <a href="https://www.linkedin.com/in/onasanya-tunde/">
-            <i class="fab fa-linkedin-in p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-blue-700 transform hover:-translate-y-1 hover:scale-110 "></i>
+            <i className="fab fa-linkedin-in p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-blue-700 transform hover:-translate-y-1 hover:scale-110 "></i>
           </a>
 
           <a href="mailto:onasanyatunde67@gmail.com">
-            <i class="fas fa-envelope p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-red-700 transform hover:-translate-y-1 hover:scale-110 "></i>
+            <i className="fas fa-envelope p-3 transition duration-500 ease-in-out  hover:text-white hover:bg-red-700 transform hover:-translate-y-1 hover:scale-110 "></i>
           </a>
         </div>
 

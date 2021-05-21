@@ -1,30 +1,30 @@
-import { useState } from "react"
-import axios from "axios"
+import { useState } from "react";
+import axios from "axios";
 
 function ContactForm() {
   const [details, setDetails] = useState({
     name: null,
     email: null,
     message: null,
-  })
-  const [emailSent, setemailSent] = useState(false)
-  const [error, setError] = useState(false)
-  const [loading, setLoading] = useState(false)
+  });
+  const [emailSent, setemailSent] = useState(false);
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setDetails({
       ...details,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = async (e) => {
-    setLoading(true)
-    e.preventDefault()
-    const { name, email, message } = details
-    const subject = `${name} sent you an email from your portfolio website`
-    const body = `From ${email}  <br/> ${message}`
-    const sent_date = new Date().toISOString()
+    setLoading(true);
+    e.preventDefault();
+    const { name, email, message } = details;
+    const subject = `${name} sent you an email from your portfolio website`;
+    const body = `From ${email}  <br/> ${message}`;
+    const sent_date = new Date().toISOString();
 
     try {
       const res = await axios.post(
@@ -40,15 +40,15 @@ function ContactForm() {
             Authorization: `Token ${process.env.TOKEN}`,
           },
         }
-      )
+      );
 
-      setemailSent(true)
+      setemailSent(true);
     } catch (error) {
-      console.log("An error occured")
-      setError(true)
+      console.log("An error occurred");
+      setError(true);
     }
-    setLoading(false)
-  }
+    setLoading(false);
+  };
   return (
     <div className="px-8">
       <h2 className="text-xl lg:text-2xl inline-block px-0 custom-box-shadow mb-8">
@@ -76,7 +76,7 @@ function ContactForm() {
           <div class="w-full md:w-1/2 mb-6 md:mb-0">
             <label
               class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="grid-first-name"
+              htmlFor="grid-first-name"
             >
               Name
             </label>
@@ -145,7 +145,7 @@ function ContactForm() {
         />
       </form>
     </div>
-  )
+  );
 }
 
-export default ContactForm
+export default ContactForm;
