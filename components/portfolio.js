@@ -38,6 +38,28 @@ const portfolioDetails = [
   },
 
   {
+    id: 2,
+    projectName: "Foodo!",
+    shortDesc:
+      "A simple ordering system that uses paystack as payment gateway. ",
+    web: "https://payfoodo.herokuapp.com/",
+    github: "https://github.com/rammyblog/food-order",
+    longDesc: "",
+    skills: [
+      "HTML5",
+      "CSS",
+      "Node",
+      "Express",
+      "MongoDB",
+      "ReactJs",
+      "chakra UI",
+    ],
+    engagementPeriod: "June 2021",
+    image:
+      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1623424460/portfolio/Screenshot_2021-06-11_at_16-05-37_Foodo.png",
+  },
+
+  {
     id: 3,
     projectName: "pTracker",
     shortDesc:
@@ -201,31 +223,31 @@ const portfolioDetails = [
     image:
       "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/docufix.png",
   },
-  {
-    id: 11,
-    projectName: "Afrivent",
-    shortDesc: "Event Ticketing Web App",
-    web: "https://afrivent.herokuapp.com/",
-    github: "https://github.com/rammyblog/Afrivent",
-    longDesc: `Easily sell tickets to your next event
-    Secure, reliable and easy to use. Mauvera provides a seamless ticketing experience for you and your attendees
-    
-    `,
-    skills: [
-      "HTML5",
-      "CSS",
-      "Python",
-      "Javascript",
-      "Django",
-      "Jquery",
-      "Celery",
-      "PyQRCode",
-      "Redis",
-    ],
-    engagementPeriod: "December 2019",
-    image:
-      "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/afrivent.png",
-  },
+  // {
+  //   id: 11,
+  //   projectName: "Afrivent",
+  //   shortDesc: "Event Ticketing Web App",
+  //   web: "https://afrivent.herokuapp.com/",
+  //   github: "https://github.com/rammyblog/Afrivent",
+  //   longDesc: `Easily sell tickets to your next event
+  //   Secure, reliable and easy to use. Mauvera provides a seamless ticketing experience for you and your attendees
+
+  //   `,
+  //   skills: [
+  //     "HTML5",
+  //     "CSS",
+  //     "Python",
+  //     "Javascript",
+  //     "Django",
+  //     "Jquery",
+  //     "Celery",
+  //     "PyQRCode",
+  //     "Redis",
+  //   ],
+  //   engagementPeriod: "December 2019",
+  //   image:
+  //     "https://res.cloudinary.com/rammy/image/upload/f_auto,q_auto/v1614108160/portfolio/afrivent.png",
+  // },
 
   {
     id: 12,
