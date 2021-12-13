@@ -1,27 +1,19 @@
-import Typed from "react-typed"
-import * as Scroll from "react-scroll"
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll"
-import Button from "./Button"
+import Typed from 'react-typed';
+import * as Scroll from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
+import Button from './Button';
 
 function Header() {
   const handleScroll = () => {
-    scroll.scrollMore(700)
-  }
+    scroll.scrollMore(700);
+  };
   const headingButtonDetails = [
     {
-      text: "Download my Resume",
-      link:
-        "https://docs.google.com/document/d/1v8eCsG_eLnftjjCVV5AZCtbNPYAnWBz_g0cT3bibA-8/edit",
+      text: 'Download my Resume',
+      link: 'https://docs.google.com/document/d/1v8eCsG_eLnftjjCVV5AZCtbNPYAnWBz_g0cT3bibA-8/edit',
     },
-    { text: "Contact Me", link: "#contact" },
-  ]
+    { text: 'Contact Me', link: '#contact' },
+  ];
   return (
     <>
       <div className="flex justify-center items-center flex-col  text-gray-800 text-center h-84-screen mb-0 lg:mb-10 ">
@@ -32,7 +24,7 @@ function Header() {
           />
         </div>
         <h1 className="font-extrabold text-xl md:text-5xl lg:text-6xl">
-          Hi! <span className="text-md font-medium">👋</span>, I'm{" "}
+          Hi! <span className="text-md font-medium">👋</span>, I'm{' '}
           <span className="text-blue-500 shadow-md custom-box-shadow">
             Onasanya Babatunde.
           </span>
@@ -40,15 +32,14 @@ function Header() {
             <Typed
               strings={[
                 "I'm a full-stack web developer.",
-                "Computer Engineering Student",
-                "Motivated, Passionate, Talented",
+                'Motivated, Passionate, Talented',
               ]}
               loop={true}
               typeSpeed={50}
               backSpeed={20}
               backDelay={3000}
               smartBackspace={false}
-              cursorChar={"_"}
+              cursorChar={'_'}
             />
           </span>
         </h1>
@@ -83,7 +74,7 @@ function Header() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;

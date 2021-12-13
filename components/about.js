@@ -1,124 +1,131 @@
-import React from "react"
-import { Element } from "react-scroll"
+import React from 'react';
+import { Element } from 'react-scroll';
 
 function About() {
   const softwareSkills = [
     {
-      skillName: "HTML",
-      fontAwesomeClassname: "fab fa-html5",
-      color: "bg-red-600",
+      skillName: 'HTML',
+      fontAwesomeClassname: 'fab fa-html5',
+      color: 'bg-red-600',
     },
     {
-      skillName: "CSS",
-      fontAwesomeClassname: "fab fa-css3-alt",
-      color: "bg-blue-500",
+      skillName: 'CSS',
+      fontAwesomeClassname: 'fab fa-css3-alt',
+      color: 'bg-blue-500',
     },
 
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js",
-      color: "bg-yellow-300",
+      skillName: 'JavaScript',
+      fontAwesomeClassname: 'fab fa-js',
+      color: 'bg-yellow-300',
     },
 
     {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python",
-      color: "bg-blue-500",
+      skillName: 'Python',
+      fontAwesomeClassname: 'fab fa-python',
+      color: 'bg-blue-500',
     },
     {
-      skillName: "Django",
-      fontAwesomeClassname: "devicon-django-plain",
-      color: "bg-green-800",
+      skillName: 'Django',
+      fontAwesomeClassname: 'devicon-django-plain',
+      color: 'bg-green-800',
     },
     {
-      skillName: "Django Rest Framework",
-      fontAwesomeClassname: "devicon-django-plain",
-      color: "bg-green-800",
+      skillName: 'Django Rest Framework',
+      fontAwesomeClassname: 'devicon-django-plain',
+      color: 'bg-green-800',
     },
     {
-      skillName: "Celery",
-      fontAwesomeClassname: "devicon-django-plain",
-      color: "bg-green-800",
+      skillName: 'Express',
+      fontAwesomeClassname: 'devicon-postgresql-plain',
+      color: 'bg-blue-500',
     },
     {
-      skillName: "Reactjs",
-      fontAwesomeClassname: "fab fa-react",
-      color: "bg-blue-300",
+      skillName: 'Reactjs',
+      fontAwesomeClassname: 'fab fa-react',
+      color: 'bg-blue-300',
     },
     {
-      skillName: "NextJS",
-      fontAwesomeClassname: "devicon-django-plain",
-      color: "bg-green-800",
+      skillName: 'NextJS',
+      fontAwesomeClassname: 'devicon-django-plain',
+      color: 'bg-green-800',
     },
 
     {
-      skillName: "Angular",
-      fontAwesomeClassname: "fab fa-angular",
-      color: "bg-red-600",
+      skillName: 'Svelte',
+      fontAwesomeClassname: 'fab fa-angular',
+      color: 'bg-red-600',
     },
     {
-      skillName: "Wordpress",
-      fontAwesomeClassname: "fab fa-wordpress",
-      color: "bg-gray-700",
-    },
-    {
-      skillName: "JQuery",
-      fontAwesomeClassname: "devicon-jquery-plain",
-      color: "bg-blue-600",
-    },
-    {
-      skillName: "Bootstrap",
-      fontAwesomeClassname: "fab fa-bootstrap",
-      color: "bg-indigo-700",
-    },
-    {
-      skillName: "Tailwind CSS",
-      fontAwesomeClassname: "fab fa-bootstrap",
-      color: "bg-indigo-700",
-    },
-    {
-      skillName: "Styled Components",
-      fontAwesomeClassname: "fab fa-bootstrap",
-      color: "bg-indigo-700",
-    },
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git",
-      color: "bg-gray-900",
-    },
-    {
-      skillName: "Github",
-      fontAwesomeClassname: "fab fa-github",
-      color: "bg-gray-900",
-    },
-    {
-      skillName: "Heroku",
-      fontAwesomeClassname: "devicon-heroku-original",
-      color: "bg-blue-700",
+      skillName: 'Sapper',
+      fontAwesomeClassname: 'fab fa-angular',
+      color: 'bg-red-600',
     },
 
     {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm",
-      color: "bg-red-600",
+      skillName: 'Wordpress',
+      fontAwesomeClassname: 'fab fa-wordpress',
+      color: 'bg-gray-700',
     },
     {
-      skillName: "Sqlite",
-      fontAwesomeClassname: "fas fa-database",
-      color: "bg-blue-500",
+      skillName: 'JQuery',
+      fontAwesomeClassname: 'devicon-jquery-plain',
+      color: 'bg-blue-600',
+    },
+    {
+      skillName: 'Bootstrap',
+      fontAwesomeClassname: 'fab fa-bootstrap',
+      color: 'bg-indigo-700',
+    },
+    {
+      skillName: 'Tailwind CSS',
+      fontAwesomeClassname: 'fab fa-bootstrap',
+      color: 'bg-indigo-700',
+    },
+    {
+      skillName: 'Styled Components',
+      fontAwesomeClassname: 'fab fa-bootstrap',
+      color: 'bg-indigo-700',
+    },
+    {
+      skillName: 'Git',
+      fontAwesomeClassname: 'fab fa-git',
+      color: 'bg-gray-900',
+    },
+    {
+      skillName: 'Github',
+      fontAwesomeClassname: 'fab fa-github',
+      color: 'bg-gray-900',
+    },
+    {
+      skillName: 'Heroku',
+      fontAwesomeClassname: 'devicon-heroku-original',
+      color: 'bg-blue-700',
     },
 
     {
-      skillName: "PostgreSQL",
-      fontAwesomeClassname: "devicon-postgresql-plain",
-      color: "bg-blue-500",
+      skillName: 'NPM',
+      fontAwesomeClassname: 'fab fa-npm',
+      color: 'bg-red-600',
     },
     {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "devicon-postgresql-plain",
-      color: "bg-blue-500",
+      skillName: 'Sqlite',
+      fontAwesomeClassname: 'fas fa-database',
+      color: 'bg-blue-500',
     },
-  ]
+
+    {
+      skillName: 'PostgreSQL',
+      fontAwesomeClassname: 'devicon-postgresql-plain',
+      color: 'bg-blue-500',
+    },
+
+    {
+      skillName: 'Celery',
+      fontAwesomeClassname: 'devicon-django-plain',
+      color: 'bg-green-800',
+    },
+  ];
 
   return (
     <>
@@ -129,12 +136,11 @@ function About() {
               About me & What I do
             </h2>
             <p className=" text-sm pt-4 text-gray-700 text-justify custom-libre-font">
-              I'm a motivated full stack Developer and Computer Engineering
-              undergraduate with great passion for building excellent softwares.
-              I build fun stuffs using mostly Python and JavaScript. I offer two
-              years of development experience, a strong aptitude for learning
-              new technologies, and a proven track record of meeting aggressive
-              goals. My most notable skills include:
+              I'm a full stack Developer with great passion for building
+              excellent softwares. I build fun stuffs using Python and
+              JavaScript. I offer two years of development experience, a strong
+              aptitude for learning new technologies, and a proven track record
+              of meeting aggressive goals. My most notable skills include:
             </p>
             {/* <div
             className=" rounded overflow-hidden shadow-lg min-h-full transition duration-500
@@ -192,15 +198,7 @@ function About() {
         </div>
       </Element>
     </>
-  )
+  );
 }
 
-export default About
-
-// I'm basically a really creative, fun and talented guy. I'm also an expert front-end web developer who's really good in React,
-// Next, Gatsby and Vanilla JS as well. I've been coding for 4 years now.
-
-// I’m very passionate about building excellent software that improves the lives of those around me.
-//  So I create powerful software for clients ranging from your friendly neighbour all the way to large corporations.
-
-// When I'm not smacking a keyboard, you can bet I'm either playing a piano or a video game, eating or spending time with my family.
+export default About;
