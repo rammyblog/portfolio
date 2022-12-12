@@ -1,16 +1,16 @@
-import Nav from "../components/nav"
-import Header from "../components/header"
-import About from "../components/about"
-import Projects from "../components/projects"
-import Testimonials from "../components/Testimonials"
-import Footer from "../components/Footer"
-import Head from "next/head"
+import Nav from '../components/nav';
+import Header from '../components/header';
+import About from '../components/about';
+import Projects from '../components/projects';
+import Testimonials from '../components/Testimonials';
+import Footer from '../components/Footer';
+import Head from 'next/head';
 
 export default function IndexPage() {
   return (
     <>
       <Head>
-        <title>Onasanya Tunde - Fullstack Developer</title>
+        <title>Babatunde Onasanya- Fullstack Developer</title>
       </Head>
       <div>
         <Nav />
@@ -23,5 +23,5 @@ export default function IndexPage() {
         </div>
       </div>
     </>
-  )
+  );
 }

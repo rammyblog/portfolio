@@ -21,6 +21,12 @@ function About() {
     },
 
     {
+      skillName: 'TypeScript',
+      fontAwesomeClassname: 'fab fa-js',
+      color: 'bg-yellow-300',
+    },
+
+    {
       skillName: 'Python',
       fontAwesomeClassname: 'fab fa-python',
       color: 'bg-blue-500',
@@ -32,6 +38,11 @@ function About() {
     },
     {
       skillName: 'Django Rest Framework',
+      fontAwesomeClassname: 'devicon-django-plain',
+      color: 'bg-green-800',
+    },
+    {
+      skillName: 'NodeJs',
       fontAwesomeClassname: 'devicon-django-plain',
       color: 'bg-green-800',
     },
@@ -68,52 +79,10 @@ function About() {
       color: 'bg-gray-700',
     },
     {
-      skillName: 'JQuery',
-      fontAwesomeClassname: 'devicon-jquery-plain',
-      color: 'bg-blue-600',
-    },
-    {
-      skillName: 'Bootstrap',
-      fontAwesomeClassname: 'fab fa-bootstrap',
-      color: 'bg-indigo-700',
-    },
-    {
-      skillName: 'Tailwind CSS',
-      fontAwesomeClassname: 'fab fa-bootstrap',
-      color: 'bg-indigo-700',
-    },
-    {
       skillName: 'Styled Components',
       fontAwesomeClassname: 'fab fa-bootstrap',
       color: 'bg-indigo-700',
     },
-    {
-      skillName: 'Git',
-      fontAwesomeClassname: 'fab fa-git',
-      color: 'bg-gray-900',
-    },
-    {
-      skillName: 'Github',
-      fontAwesomeClassname: 'fab fa-github',
-      color: 'bg-gray-900',
-    },
-    {
-      skillName: 'Heroku',
-      fontAwesomeClassname: 'devicon-heroku-original',
-      color: 'bg-blue-700',
-    },
-
-    {
-      skillName: 'NPM',
-      fontAwesomeClassname: 'fab fa-npm',
-      color: 'bg-red-600',
-    },
-    {
-      skillName: 'Sqlite',
-      fontAwesomeClassname: 'fas fa-database',
-      color: 'bg-blue-500',
-    },
-
     {
       skillName: 'PostgreSQL',
       fontAwesomeClassname: 'devicon-postgresql-plain',
@@ -121,9 +90,14 @@ function About() {
     },
 
     {
-      skillName: 'Celery',
-      fontAwesomeClassname: 'devicon-django-plain',
-      color: 'bg-green-800',
+      skillName: 'MongoDB',
+      fontAwesomeClassname: 'devicon-postgresql-plain',
+      color: 'bg-blue-500',
+    },
+    {
+      skillName: 'GraphQL',
+      fontAwesomeClassname: 'devicon-postgresql-plain',
+      color: 'bg-blue-500',
     },
   ];
 
@@ -140,7 +114,7 @@ function About() {
               excellent softwares. I build fun stuffs using Python and
               JavaScript. I offer two years of development experience, a strong
               aptitude for learning new technologies, and a proven track record
-              of meeting aggressive goals. My most notable skills include:
+              of meeting aggressive goals, Let me help you solve that problem. My most notable skills include:
             </p>
             {/* <div
             className=" rounded overflow-hidden shadow-lg min-h-full transition duration-500
@@ -151,7 +125,7 @@ function About() {
               Django - Django Rest Framework - NextJS - Wordpress - Bootstrap -
               Tailwind CSS - Python - PostgreSQL - Sqlite
             </div> */}
-            <div className="justify-center items-center text-center rounded">
+            <div className="items-justify text-center rounded">
               {softwareSkills.map((skill, idx) => (
                 <span
                   key={idx}

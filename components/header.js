@@ -26,7 +26,7 @@ function Header() {
         <h1 className="font-extrabold text-xl md:text-5xl lg:text-6xl">
           Hi! <span className="text-md font-medium">👋</span>, I'm{' '}
           <span className="text-blue-500 shadow-md custom-box-shadow">
-            Onasanya Babatunde.
+           Babatunde Onasanya.
           </span>
           <span className="block text-lg pt-4  md:text-4xl lg:text-4xl font-normal text-center">
             <Typed
