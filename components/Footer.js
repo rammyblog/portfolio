@@ -1,6 +1,6 @@
-import React from "react"
-import ContactForm from "./ContactForm"
-import { Element } from "react-scroll"
+import React from 'react';
+import ContactForm from './ContactForm';
+import { Element } from 'react-scroll';
 
 function Footer() {
   return (
@@ -15,17 +15,17 @@ function Footer() {
             your project, I'll be happy to help. Ready to make a difference?
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row md:flex-row w-full justify-between text-gray-800 mb-8">
+        <div className="flex flex-col lg:flex-row md:flex-row w-full justify-between text-white mb-8">
           <div className="text-base lg:text-xl custom-libre-font leading-loose py-2 p-8">
             <a href="mailto:onasanyatunde67@gmail.com">
-              {" "}
+              {' '}
               <i className="fas fa-envelope"></i> onasanyatunde67@gmail.com
             </a>
             <a className="block" href="tel:+2349051053101">
               <i class="fas fa-phone-alt"></i> +2349051053101
             </a>
             <p>
-              <i class="fas fa-map-marker-alt"></i> Lagos , Nigeria{" "}
+              <i class="fas fa-map-marker-alt"></i> Lagos , Nigeria{' '}
             </p>
             <p>Open for opportunities: Yes</p>
 
@@ -42,11 +42,11 @@ function Footer() {
               <i class="fas fa-envelope p-3 fa-2x transition duration-500 ease-in-out  hover:text-white hover:bg-red-700 transform hover:-translate-y-1 hover:scale-110 "></i>
             </a>
           </div>
-          <ContactForm />
+          {/* <ContactForm /> */}
         </div>
       </Element>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

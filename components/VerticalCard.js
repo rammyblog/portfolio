@@ -3,7 +3,7 @@ import React from "react"
 function VerticalCard({ testimonial }) {
   const { testimonial: desc, name, linkedin, jobTitle } = testimonial
   return (
-    <div className="rounded shadow-lg p-6 custom-libre-font text-gray-700">
+    <div className="rounded shadow-lg p-6 custom-libre-font text-white">
       <p>
         <i class="fas fa-quote-left fa-2x px-4"></i>
         {desc}

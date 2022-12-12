@@ -16,7 +16,7 @@ function Header() {
   ];
   return (
     <>
-      <div className="flex justify-center items-center flex-col  text-gray-800 text-center h-84-screen mb-0 lg:mb-10 ">
+      <div className="flex justify-center items-center flex-col  text-white text-center h-84-screen mb-0 lg:mb-10 ">
         <div className="rounded-full flex items-center justify-center w-40">
           <img
             src="./onasanya_tunde.jpg"

@@ -17,13 +17,18 @@ html {
   @apply py-20;
 }
 
+body {
+  background-color: #151515;
+  color: #fff;
+}
+
 .header-background {
   background-image: linear-gradient(
       to right bottom,
       rgb(30, 27, 30, 0.8),
       rgb(30, 27, 30, 0.8)
     ),
-    url("../public/hero.jpg");
+    url('../public/hero.jpg');
   background-size: cover;
   background-position: top;
 }

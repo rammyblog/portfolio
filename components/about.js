@@ -109,7 +109,7 @@ function About() {
             <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block mb-5">
               About me & What I do
             </h2>
-            <p className=" text-sm pt-4 text-gray-700 text-justify custom-libre-font">
+            <p className=" text-sm pt-4 text-white-700 text-justify custom-libre-font">
               I'm a full stack Developer with great passion for building
               excellent softwares. I build fun stuffs using Python and
               JavaScript. I offer two years of development experience, a strong

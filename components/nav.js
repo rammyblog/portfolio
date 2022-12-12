@@ -19,16 +19,16 @@ export default function Nav() {
   const [open, setOpen] = useState(false)
   return (
     <>
-      <nav className="flex items-center justify-between flex-wrap text-gray-700 p-6">
-        <div className="flex items-center flex-shrink-0 flex-grow text-gray-700 mr-6">
+      <nav className="flex items-center justify-between flex-wrap text-white p-6">
+        <div className="flex items-center flex-shrink-0 flex-grow text-white mr-6">
           <a href="#">
-            <span className="font-semibold text-gray-700  font-header text-xl tracking-tight">
+            <span className="font-semibold text-white  font-header text-xl tracking-tight">
               Onasanya Tunde
             </span>
           </a>
         </div>
         <div className="block lg:hidden" onClick={() => setOpen(!open)}>
-          <button className="flex items-center px-3 py-2 border rounded text-gray-700 border-teal-400 hover:text-black hover:border-white">
+          <button className="flex items-center px-3 py-2 border rounded text-white border-teal-400 hover:text-black hover:border-white">
             <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
@@ -55,7 +55,7 @@ export default function Nav() {
             >
               <a
                 href="#about"
-                className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
               >
                 About
               </a>
@@ -70,7 +70,7 @@ export default function Nav() {
             >
               <a
                 href="#projects"
-                className="block mt-4 lg:inline-block lg:mt-0 text-gray-700 mr-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
               >
                 Projects
               </a>
@@ -85,7 +85,7 @@ export default function Nav() {
             >
               <a
                 href="#testimonials"
-                className="block mt-4 lg:inline-block lg:mt-0 text-gray-700  mr-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white  mr-4"
               >
                 Testimonials
               </a>
@@ -100,7 +100,7 @@ export default function Nav() {
             >
               <a
                 href="#contact"
-                className="block mt-4 lg:inline-block lg:mt-0 text-gray-700  mr-4 mb-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white  mr-4 mb-4"
               >
                 Contact
               </a>

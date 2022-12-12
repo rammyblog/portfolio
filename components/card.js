@@ -8,19 +8,19 @@ function Card({ project }) {
     skills,
     engagementPeriod,
     image,
-  } = project
+  } = project;
 
   return (
     <div
-      className="max-w-sm rounded overflow-hidden shadow-lg min-h-full transition duration-500
-    ease-in-out transform hover:-translate-y-1 hover:scale-110 "
+      className="max-w-sm rounded overflow-hidden shadow-2xl min-h-full transition duration-500
+    ease-in-out transform hover:-translate-y-1 hover:scale-110"
     >
       <img className="w-full" src={image} alt={projectName} />
       <div className="px-6 py-4">
         <a href={web} className="block text-blue-500 font-bold text-xl mb-2 ">
           {projectName}
         </a>
-        <p className="text-gray-700 text-base">{shortDesc}</p>
+        <p className="text-white text-base">{shortDesc}</p>
       </div>
       <div className="px-6 py-4">
         {skills.map((skill, id) => (
@@ -33,7 +33,7 @@ function Card({ project }) {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
