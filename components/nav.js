@@ -28,7 +28,7 @@ export default function Nav() {
           </a>
         </div>
         <div className="block lg:hidden" onClick={() => setOpen(!open)}>
-          <button className="flex items-center px-3 py-2 border rounded text-white border-teal-400 hover:text-black hover:border-white">
+          <button className="flex items-center px-3 py-2 border rounded text-white border-white-400 hover:text-black hover:border-white">
             <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
