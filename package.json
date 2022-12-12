@@ -9,7 +9,7 @@
   "dependencies": {
     "animate.css": "^4.1.0",
     "antd": "^4.2.4",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "cross-fetch": "^3.0.6",
     "next": "^9.2.0",
     "next-pwa": "^2.4.1",
