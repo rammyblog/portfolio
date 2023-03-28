@@ -17,9 +17,9 @@ function Footer() {
         </div>
         <div className="flex flex-col lg:flex-row md:flex-row w-full justify-between text-white mb-8">
           <div className="text-base lg:text-xl custom-libre-font leading-loose py-2 p-8">
-            <a href="mailto:onasanyatunde67@gmail.com">
+            <a href="mailto:me@tundeonasanya.dev">
               {' '}
-              <i className="fas fa-envelope"></i> onasanyatunde67@gmail.com
+              <i className="fas fa-envelope"></i> me@tundeonasanya.dev
             </a>
             <a className="block" href="tel:+2349051053101">
               <i class="fas fa-phone-alt"></i> +2349051053101
@@ -38,7 +38,7 @@ function Footer() {
             <a href="https://www.linkedin.com/in/onasanya-tunde/">
               <i class="fab fa-linkedin-in p-3 fa-2x transition duration-500 ease-in-out  hover:text-white hover:bg-blue-700 transform hover:-translate-y-1 hover:scale-110 "></i>
             </a>
-            <a href="mailto:onasanyatunde67@gmail.com">
+            <a href="mailto:me@tundeonasanya.dev">
               <i class="fas fa-envelope p-3 fa-2x transition duration-500 ease-in-out  hover:text-white hover:bg-red-700 transform hover:-translate-y-1 hover:scale-110 "></i>
             </a>
           </div>

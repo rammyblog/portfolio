@@ -1,5 +1,5 @@
-import { useState } from "react";
-import axios from "axios";
+import { useState } from 'react';
+import axios from 'axios';
 
 function ContactForm() {
   const [details, setDetails] = useState({
@@ -44,7 +44,7 @@ function ContactForm() {
 
       setemailSent(true);
     } catch (error) {
-      console.log("An error occurred");
+      console.log('An error occurred');
       setError(true);
     }
     setLoading(false);
@@ -64,10 +64,8 @@ function ContactForm() {
         <div className="bg-red-500 text-base text-white font-bold p-4">
           There was an error sending the mail.
           <p>
-            Kindly send the email to this address{" "}
-            <a href="mailto:onasanyatunde67@gmail.com">
-              onasanyatunde67@gmail.com
-            </a>
+            Kindly send the email to this address{' '}
+            <a href="mailto:me@tundeonasanya.dev">me@tundeonasanya.dev</a>
           </p>
         </div>
       ) : null}
@@ -141,7 +139,7 @@ function ContactForm() {
           className="font-normal bg-white transition duration-500 
                         ease-in-out  hover:text-white hover:bg-blue-500 transform hover:-translate-y-1 
                          shadow-outline text-blue-500 rounded border-blue-500 px-8 py-2 my-8"
-          value={!loading ? "Send Email" : "Sending..."}
+          value={!loading ? 'Send Email' : 'Sending...'}
         />
       </form>
     </div>

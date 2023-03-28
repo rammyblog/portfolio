@@ -1,30 +1,37 @@
-import React from "react"
-import VerticalCard from "./VerticalCard"
-import { Element } from "react-scroll"
+import React from 'react';
+import VerticalCard from './VerticalCard';
+import { Element } from 'react-scroll';
 
 const testimonials = [
   {
     testimonial:
       "I hired Tunde to help with our company's re-branding and growth effort, He was reliable, flexible, dedicated and fully responsive. I highly recommend him for any role that may require his skills and expertise.",
-    name: "Victor Sunday",
-    linkedin: "https://ng.linkedin.com/in/victor-sunday-59bb8178",
-    jobTitle: "Sales Manager",
+    name: 'Victor Sunday',
+    linkedin: 'https://ng.linkedin.com/in/victor-sunday-59bb8178',
+    jobTitle: 'Sales Manager',
   },
   {
     testimonial:
       "He's a very good developer with passion to make a difference. He's built a lot of applications and I really would endorse him.",
-    name: "Adewale Bukunmi",
-    linkedin: "https://www.linkedin.com/in/oluwabukunmiadewale3/",
-    jobTitle: "Fullstack Developer",
+    name: 'Adewale Bukunmi',
+    linkedin: 'https://www.linkedin.com/in/oluwabukunmiadewale3/',
+    jobTitle: 'Fullstack Developer',
   },
   {
     testimonial:
-      "I hired Rammy to build out my multi-page portfolio. He was reliable, communicative, responsive, and implemented everything in a timely and professional way. His technical skills were good, and he was able to build everything I wanted. All-in-all, I would recommend Rammy to colleagues or friends.",
-    name: "Ciaran Hughes",
-    linkedin: "https://www.linkedin.com/in/ciaran-hughes-866070107/",
-    jobTitle: "Scientist",
+      'I hired Rammy to build out my multi-page portfolio. He was reliable, communicative, responsive, and implemented everything in a timely and professional way. His technical skills were good, and he was able to build everything I wanted. All-in-all, I would recommend Rammy to colleagues or friends.',
+    name: 'Ciaran Hughes',
+    linkedin: 'https://www.linkedin.com/in/ciaran-hughes-866070107/',
+    jobTitle: 'Scientist',
   },
-]
+  {
+    testimonial:
+      'I have had the greatest pleasure working with Tunde. He has proven himself to be a professional. Despite working with him remotely, Tunde delivers with little or no supervision, meeting deadlines and commitment. I strongly recommend him',
+    name: 'Ayokunnu Ojeniyi',
+    linkedin: 'https://www.linkedin.com/in/ayokunnu-ojeniyi-7a307839/',
+    jobTitle: 'Executive Director, Future Pathways Development',
+  },
+];
 
 function Testimonials() {
   return (
@@ -40,7 +47,7 @@ function Testimonials() {
         </div>
       </div>
     </Element>
-  )
+  );
 }
 
-export default Testimonials
+export default Testimonials;

@@ -1,6 +1,6 @@
-import Link from "next/link"
-import { useState } from "react"
-import * as Scroll from "react-scroll"
+import Link from 'next/link';
+import { useState } from 'react';
+import * as Scroll from 'react-scroll';
 import {
   Link as ScrollLink,
   Element,
@@ -8,22 +8,22 @@ import {
   animateScroll as scroll,
   scrollSpy,
   scroller,
-} from "react-scroll"
+} from 'react-scroll';
 
 const links = [
-  { href: "https://github.com/vercel/next.js", label: "GitHub" },
-  { href: "https://nextjs.org/docs", label: "Docs" },
-]
+  { href: 'https://github.com/vercel/next.js', label: 'GitHub' },
+  { href: 'https://nextjs.org/docs', label: 'Docs' },
+];
 
 export default function Nav() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
   return (
     <>
       <nav className="flex items-center justify-between flex-wrap text-white p-6">
         <div className="flex items-center flex-shrink-0 flex-grow text-white mr-6">
           <a href="#">
             <span className="font-semibold text-white  font-header text-xl tracking-tight">
-              Onasanya Tunde
+              Tunde Onasanya
             </span>
           </a>
         </div>
@@ -41,10 +41,25 @@ export default function Nav() {
         </div>
         <div
           className={`${
-            open ? "block" : "hidden"
-          } w-full lg:block lg:flex lg:items-center lg:w-auto lg:pr-8`}
+            open ? 'block' : 'hidden'
+          } w-full lg:flex lg:items-center lg:w-auto lg:pr-8`}
         >
           <div className="text-sm">
+            <ScrollLink
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              <a
+                href="https://blog.tundeonasanya.dev"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+              >
+                Blog
+              </a>
+            </ScrollLink>
             <ScrollLink
               activeClass="active"
               to="about"
@@ -109,5 +124,5 @@ export default function Nav() {
         </div>
       </nav>
     </>
-  )
+  );
 }
