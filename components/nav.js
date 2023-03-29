@@ -45,21 +45,11 @@ export default function Nav() {
           } w-full lg:flex lg:items-center lg:w-auto lg:pr-8`}
         >
           <div className="text-sm">
-            <ScrollLink
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              <a
-                href="https://blog.tundeonasanya.dev"
-                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
-              >
+            <Link href="https://blog.tundeonasanya.dev">
+              <span className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 cursor-pointer">
                 Blog
-              </a>
-            </ScrollLink>
+              </span>
+            </Link>
             <ScrollLink
               activeClass="active"
               to="about"
@@ -68,12 +58,12 @@ export default function Nav() {
               offset={50}
               duration={500}
             >
-              <a
+              <span
                 href="#about"
-                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 cursor-pointer"
               >
                 About
-              </a>
+              </span>
             </ScrollLink>
             <ScrollLink
               activeClass="active"
@@ -83,12 +73,12 @@ export default function Nav() {
               offset={50}
               duration={500}
             >
-              <a
+              <span
                 href="#projects"
-                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 cursor-pointer"
               >
                 Projects
-              </a>
+              </span>
             </ScrollLink>
             <ScrollLink
               activeClass="active"
@@ -98,12 +88,12 @@ export default function Nav() {
               offset={50}
               duration={500}
             >
-              <a
+              <span
                 href="#testimonials"
-                className="block mt-4 lg:inline-block lg:mt-0 text-white  mr-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white  mr-4 cursor-pointer"
               >
                 Testimonials
-              </a>
+              </span>
             </ScrollLink>
             <ScrollLink
               activeClass="active"
@@ -113,12 +103,12 @@ export default function Nav() {
               offset={50}
               duration={500}
             >
-              <a
+              <span
                 href="#contact"
-                className="block mt-4 lg:inline-block lg:mt-0 text-white  mr-4 mb-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white  mr-4 mb-4 cursor-pointer"
               >
                 Contact
-              </a>
+              </span>
             </ScrollLink>
           </div>
         </div>
